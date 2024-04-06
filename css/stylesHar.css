@@ -1,0 +1,52 @@
+.navbar{
+    padding: 1rem;
+}
+.nm-elements{
+    float: left;
+}
+.nm-icon{
+    float: right;
+}
+.showcase{
+    padding: 1rem;
+}
+
+.menu{
+    font-weight: bolder;
+    padding: 0.3rem  0rem;
+}
+p{
+    text-align: justify;
+}
+
+.img-orientation{
+    max-width: 100%;
+    width: 300px;
+    height: 150px;
+}
+
+.img-container {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.img-container img{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex {
+    display: flex !important;
+}
+
+.iconGallery{
+    color: rgb(13, 110, 253);
+}
