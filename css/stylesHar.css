@@ -1,24 +1,30 @@
-.navbar{
-    padding: 1rem;
+p{
+    text-align: justify;
 }
-.nm-elements{
-    float: left;
+.nav-ic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.nm-icon{
+.nav-container{
+    padding: 10px;
+}
+.nav-container a{
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+.icon-flecha{
     float: right;
-}
-.showcase{
-    padding: 1rem;
+    font-size: 30px;
 }
 
 .menu{
     font-weight: bolder;
     padding: 0.3rem  0rem;
 }
-p{
-    text-align: justify;
-}
 
+/* 4 fotos */
 .img-orientation{
     max-width: 100%;
     width: 300px;
@@ -26,7 +32,7 @@ p{
 }
 
 .img-container {
-    height: 500px;
+    height: 400px;
     width: 100%;
     overflow: hidden;
 }
@@ -37,14 +43,12 @@ p{
     position: relative;
 }
 
-.features-icons .features-icons-item .features-icons-icon {
+.iconos {
+    border: 1px solid saddlebrown;
     height: 7rem;
     display: flex !important;
     justify-content: center;
     align-items: center;
-}
-.d-flex {
-    display: flex !important;
 }
 
 .iconGallery{
